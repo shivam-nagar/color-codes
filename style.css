@@ -1,0 +1,86 @@
+.colorDiv{
+  height:20px;
+  margin-top: 4px;
+  margin-left: 4px;
+  display:inline-block;
+  width:20px;
+  float: right;
+}
+.colorLineDiv{
+  height:20px;
+  margin-top: 4px;
+  margin-left: 0px;
+  margin-bottom: 100px;
+  display:inline-block;
+  width:.420%;
+  float: left;
+}
+.piColorDiv{
+  height:20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display:inline-block;
+  width:20px;
+  color: #000000;
+  font-size: 13px;
+  padding-left: 6px;
+  float: left;
+  border-radius:10px;
+  border: 0px solid #000000;
+}
+#current h1{
+  margin: 0px;
+}
+#current{
+  position: fixed;
+  top:36px;
+  left:0px;
+  width:90px;
+  cursor: pointer;
+}
+#showPi{
+  width: 1140px;
+}
+#codes{
+  width: 90%;
+  margin:0px auto;
+}
+
+#codesBar{
+  margin:0px auto;
+}
+
+.topRight{
+  position: absolute;
+  width: 7px;
+  height: 40px;
+  margin-top: -25px;
+  margin-left: 15px;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari and Chrome */
+}
+.topLeft{
+  position: absolute;
+  width: 7px;
+  height: 40px;
+  margin-top: -25px;
+  margin-left: -13px;
+  transform: rotate(135deg);
+  -ms-transform: rotate(135deg); /* IE 9 */
+  -webkit-transform: rotate(135deg); /* Safari and Chrome */
+}
+.right{
+  position: absolute;
+  width: 40px;
+  height: 7px;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+.top{
+   position: absolute;
+   width: 7px;
+   height: 40px;
+   margin-top: -25px;
+   margin-left: 1px;
+}
